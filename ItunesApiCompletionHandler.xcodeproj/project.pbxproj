@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		A602BC69293897ED00C253B2 /* ItunesApiCompletionHandlerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A602BC68293897ED00C253B2 /* ItunesApiCompletionHandlerApp.swift */; };
-		A602BC6B293897ED00C253B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A602BC6A293897ED00C253B2 /* ContentView.swift */; };
 		A602BC6D293897EF00C253B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A602BC6C293897EF00C253B2 /* Assets.xcassets */; };
 		A602BC70293897EF00C253B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A602BC6F293897EF00C253B2 /* Preview Assets.xcassets */; };
+		A602BC78293897FC00C253B2 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A602BC76293897FC00C253B2 /* ItemRow.swift */; };
+		A602BC79293897FC00C253B2 /* StoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A602BC77293897FC00C253B2 /* StoreItem.swift */; };
+		A602BC7B2938980300C253B2 /* ItunesDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A602BC7A2938980300C253B2 /* ItunesDataFetcher.swift */; };
+		A602BC7F2938A04300C253B2 /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A602BC7E2938A04300C253B2 /* ItemList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A602BC65293897ED00C253B2 /* ItunesApiCompletionHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItunesApiCompletionHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A602BC68293897ED00C253B2 /* ItunesApiCompletionHandlerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesApiCompletionHandlerApp.swift; sourceTree = "<group>"; };
-		A602BC6A293897ED00C253B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A602BC6C293897EF00C253B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A602BC6F293897EF00C253B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A602BC76293897FC00C253B2 /* ItemRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		A602BC77293897FC00C253B2 /* StoreItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreItem.swift; sourceTree = "<group>"; };
+		A602BC7A2938980300C253B2 /* ItunesDataFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItunesDataFetcher.swift; sourceTree = "<group>"; };
+		A602BC7E2938A04300C253B2 /* ItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				A602BC68293897ED00C253B2 /* ItunesApiCompletionHandlerApp.swift */,
-				A602BC6A293897ED00C253B2 /* ContentView.swift */,
+				A602BC7E2938A04300C253B2 /* ItemList.swift */,
+				A602BC76293897FC00C253B2 /* ItemRow.swift */,
+				A602BC77293897FC00C253B2 /* StoreItem.swift */,
+				A602BC7A2938980300C253B2 /* ItunesDataFetcher.swift */,
 				A602BC6C293897EF00C253B2 /* Assets.xcassets */,
 				A602BC6E293897EF00C253B2 /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A602BC6B293897ED00C253B2 /* ContentView.swift in Sources */,
+				A602BC78293897FC00C253B2 /* ItemRow.swift in Sources */,
+				A602BC7B2938980300C253B2 /* ItunesDataFetcher.swift in Sources */,
+				A602BC79293897FC00C253B2 /* StoreItem.swift in Sources */,
+				A602BC7F2938A04300C253B2 /* ItemList.swift in Sources */,
 				A602BC69293897ED00C253B2 /* ItunesApiCompletionHandlerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
