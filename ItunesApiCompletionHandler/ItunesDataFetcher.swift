@@ -35,7 +35,7 @@ class ItunesDataFetcher: ObservableObject {
         }
         
         URLSession.shared.dataTask(with: url) { data, response, error  in
-            if let data {
+            if let data = data {
                 do {
                     let searchResponse = try JSONDecoder().decode(SearchResponse.self, from: data)
                     DispatchQueue.main.async {
@@ -45,7 +45,7 @@ class ItunesDataFetcher: ObservableObject {
                 } catch  {
                     self.error = error
                 }
-            } else if let error {
+            } else if let error = error {
                 self.error = error
             }
         }.resume()

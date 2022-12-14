@@ -16,7 +16,8 @@ struct ItemList: View {
                 ItemRow(item: item)
             }
         }
-        .alert(fetcher.error?.localizedDescription ?? "", isPresented: $fetcher.showError, actions: {
+        .alert(isPresented: $fetcher.showError, content: {
+            Alert(title: Text(fetcher.error?.localizedDescription ?? ""))
         })
         .onAppear {
             if fetcher.items.isEmpty {
